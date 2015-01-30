@@ -19,7 +19,7 @@ body
 
 
 
-.menu 
+.menu:hover
 
 {
     transition:All 1s ease;
@@ -51,13 +51,14 @@ body
 }
 
 
-    .menu:hover
+    .menu
 {
     transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
     -webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
     -moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
     -o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
     -ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+    font-size:30px;
 }
 
 #menu2
