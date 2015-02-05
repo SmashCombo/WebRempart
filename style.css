@@ -3,12 +3,14 @@
 	float:left;
 	border: solid 4px;
 	padding-right: 50px;
+	margin-left:150px;
 }
 #logog
 {
 	float:left;
 	border: solid 4px;
 	display:inline;
+	background:red;
 }
 
 	
@@ -18,49 +20,6 @@ body
 }
 
 
-
-.menu:hover
-
-{
-    transition:All 1s ease;
-    -webkit-transition:All 1s ease;
-    -moz-transition:All 1s ease;
-    -o-transition:All 1s ease;
-    transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
-    -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
-    -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
-    -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
-    -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
-    border:2px solid;
-    float: left;
-    border:dashed 3px #000000;
-    -moz-border-radius-topleft: 26px;
-    -moz-border-radius-topright:26px;
-    -moz-border-radius-bottomleft:25px;
-    -moz-border-radius-bottomright:22px;
-    -webkit-border-top-left-radius:26px;
-    -webkit-border-top-right-radius:26px;
-    -webkit-border-bottom-left-radius:25px;
-    -webkit-border-bottom-right-radius:22px;
-    border-top-left-radius:26px;
-    border-top-right-radius:26px;
-    border-bottom-left-radius:25px;
-    border-bottom-right-radius:22px;
-
-
-}
-
-
-    .menu
-{
-    transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
-    -webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
-    -moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
-    -o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
-    -ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
-    font-size:30px;
-}
-
 #menu2
 {
 	border: 2px solid red;
@@ -69,4 +28,78 @@ body
 	padding-top:20px;
 	padding-bottom:20px;
 	padding-right:20px;
+	padding-left:20px;
+}
+
+
+.menu
+{
+
+border:groove 8px #ffffff;
+-moz-border-radius-topleft: 12px;
+-moz-border-radius-topright:12px;
+-moz-border-radius-bottomleft:12px;
+-moz-border-radius-bottomright:12px;
+-webkit-border-top-left-radius:12px;
+-webkit-border-top-right-radius:12px;
+-webkit-border-bottom-left-radius:12px;
+-webkit-border-bottom-right-radius:12px;
+border-top-left-radius:12px;
+border-top-right-radius:12px;
+border-bottom-left-radius:12px;
+border-bottom-right-radius:12px;
+background-color: rgba(0, 44, 44, 0.9);
+background: rgba(0, 44, 44, 0.9);
+color: rgba(0, 44, 44, 0.9);
+width:150px;
+height:40px;
+
+transition:All 0.5635s ease;
+-webkit-transition:All 0.5635s ease;
+-moz-transition:All 0.5635s ease;
+-o-transition:All 0.5635s ease;
+transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+-webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+-ms-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+}
+
+
+.menu:hover
+
+{
+
+transform: rotate(4deg) scale(1.183) skew(1deg) translate(0px);
+-webkit-transform: rotate(4deg) scale(1.183) skew(1deg) translate(0px);
+-moz-transform: rotate(4deg) scale(1.183) skew(1deg) translate(0px);
+-o-transform: rotate(4deg) scale(1.183) skew(1deg) translate(0px);
+-ms-transform: rotate(4deg) scale(1.183) skew(1deg) translate(0px);
+
+}
+
+
+
+.menu a
+{
+
+	color:white;
+	font-style:normal;
+	font-size:110%;
+	
+}
+
+
+.menu a:visited
+{
+	color:white;
+}
+
+.corpus
+{
+	border:2px solid;
+	height:400px;
+	width:860px;
+	margin-top: 90px;
+	margin-left:200px;
 }
